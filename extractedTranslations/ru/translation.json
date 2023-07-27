@@ -4,6 +4,8 @@
       "": ""
     }
   },
+  "PROFILE PAGE": "PROFILE PAGE",
+  "Page Profile": "Page Profile",
   "decrement": "decrement",
   "increment": "increment",
   "throw error": "throw error",
@@ -23,6 +25,5 @@
   "Профиль": "Профиль",
   "Страница не найдена": "Страница не найдена",
   "Форма авторизации": "Форма авторизации",
-  "Язык": "Язык",
-  "Page Profile": "Page Profile"
+  "Язык": "Язык"
 }
