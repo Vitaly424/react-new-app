@@ -14,13 +14,7 @@
     "lint:scss": "npx stylelint \"**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
     "test:unit": "jest --config ./config/jest/jest.config.ts",
-    "test:ui": "npx loki test --force",
-    "test:ui:ok": "npx loki approve",
-    "test:ui:ci": "loki update --requireReference --reactUri file:./storybook-static",
     "storybook": "start-storybook -p 6006 -c ./config/storybook",
-    "test:ui:report": "npm run test:ui:json && npm run test:ui:html",
-    "test:ui:json": "node scripts/generate-visual-json-report.js",
-    "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html",
     "storybook:build": "build-storybook -c ./config/storybook"
   },
   "keywords": [],
