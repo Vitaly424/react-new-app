@@ -5,7 +5,7 @@ const MainPage = () => {
     const { t } = useTranslation();
 
     return (
-        <div>
+        <div style={{ backgroundColor: 'blue' }}>
             {t('Главная страница')}
         </div>
     );
